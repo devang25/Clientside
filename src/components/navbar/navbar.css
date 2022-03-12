@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Navbar__wrapper{
+    display: flex;
+    align-items: center;
+    background: blue;
+    padding: 10px 0;
+    width: 100vw;
+}
+
+.logoNavbar{
+    width: fit-content;
+    font-size: 2rem;
+    margin: 0 10px;
+}
+.Navlogo{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.IconLocation{
+    margin: 0 20px;
+    color: rgb(56, 187, 39);
+}
+
+.Searchbar{
+    width: 55vw;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.SearchItem{
+    width: 90%;
+    height: 90%;
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+}
+
+.linksOfMainLinks{
+    display: flex;
+}
+.Links{
+    display: flex;
+    justify-content: center;
+    color: rgb(7, 25, 85);
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+.Link{
+    cursor: pointer;
+    margin: 0 20px;
+}
+.UserLogo{
+    display: flex;
+    justify-content: space-around;
+}
