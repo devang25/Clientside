@@ -1,0 +1,12 @@
+.NavLinks{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.7rem;
+    color: #fff;
+    font-family: roboto sant-sarif;
+    background: #000;
+}
+.Navlink{
+   margin: 5px 30px;
+}

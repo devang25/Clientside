@@ -1,4 +1,4 @@
-import { LocationOn, Search, ShoppingCart, LocalGasStationOutlined, Add } from "@material-ui/icons";
+import { LocationOn, Search, ShoppingCart, Add } from "@material-ui/icons";
 import './navbar.css';
 export default function Navbar() {
   return (

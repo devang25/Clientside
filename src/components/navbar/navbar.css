@@ -1,14 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 .Navbar__wrapper{
     display: flex;
     align-items: center;
     background: blue;
     padding: 10px 0;
-    width: 100vw;
+    height: 80px;
+    position: sticky;
+    
 }
 
 .logoNavbar{

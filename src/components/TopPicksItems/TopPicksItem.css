@@ -1,0 +1,33 @@
+.topPicks__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.topPicks__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: end;
+    align-content: center;
+    align-items: start;
+    justify-items: center;
+
+}
+
+.topPicks__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.topPicks__img img{
+    width: 20vw;
+    height: 300px;
+    
+}

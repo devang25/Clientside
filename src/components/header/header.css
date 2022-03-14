@@ -1,0 +1,12 @@
+.images{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.images img{
+    min-width: 100vw;
+    height:60vh;
+}
+
+
