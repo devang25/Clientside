@@ -1,27 +1,34 @@
 import './header.css';
 
-export default function Header(){
-    return (
-        <>
-        <div className="mainHead">
-          <div className="images"> 
-          <div className="image">          
-           <img src="assets/indexImg/first.jpg" alt="" srcset=""/>
+export default function Header() {
+  return (
+    <>
+      <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+        <div className="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src="assets/indexImg/first.jpg" className="d-block w-100" alt="..."/>
           </div>
-           <div className="image">
-           <img src="assets/indexImg/second.jpg" alt="" srcset=""/> 
+          <div className="carousel-item">
+            <img src="assets/indexImg/second.jpg" className="d-block w-100" alt="..."/>
           </div>
-          <div className="image">
-           <img src="assets/indexImg/third.jpg" alt="" srcset=""/>
-          </div>
-           <div className="image">
-           <img src="assets/indexImg/fourth.jpg" alt="" srcset=""/>
-           </div>
-           <div className="image">
-           <img src="assets/indexImg/fifth.jpg" alt="" srcset=""/>
-           </div>
+          <div className="carousel-item">
+            <img src="assets/indexImg/third.jpg" className="d-block w-100" alt="..."/>
           </div>
         </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
+      </div>
     </>
   )
 }
